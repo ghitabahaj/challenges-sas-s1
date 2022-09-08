@@ -19,8 +19,10 @@ int main() {
 	 	printf("la mention de cet eleve est : ASSEZ BIEN !");
 	 }else if (moyenne >=14 && moyenne < 16	 ){
 	 	printf("la mention de cet eleve est : BIEN !");
-	 }else{
+	 }else if ( moyenne >= 16 && moyenne <=20){
 	 	printf ("la mention de cet eleve est :  TRES BIEN !");
+	 }else {
+	 	printf("la moyenne doit etre infurieure ou egal a 20!!!!!!!!!!!!!");
 	 }
 	
 	
