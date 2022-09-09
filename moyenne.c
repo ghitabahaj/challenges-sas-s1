@@ -22,7 +22,7 @@ int main() {
 	 }else if ( moyenne >= 16 && moyenne <=20){
 	 	printf ("la mention de cet eleve est :  TRES BIEN !");
 	 }else {
-	 	printf("la moyenne doit etre infurieure ou egal a 20!!!!!!!!!!!!!");
+	 	printf("la moyenne doit etre inferieure ou egal a 20!!!!!!!!!!!!!");
 	 }
 	
 	
