@@ -1,17 +1,13 @@
 # challenges-sas-s1
-int max = candles[0];
-    int cand = 0;
-
-
-    for(int i=0;i<candles_count; i++) {
-        if(candles[i] > max) {
-            max = candles[i];
-        }        
-    }
-    for (int i=0;i<candles_count;i++) {
-        if(candles[i]==max) {
-            cand++;
-        }            
-    }
-    return cand;
+int stair = n-1;
     
+    for (int i = 0; i < n; ++i){
+        for (int j = 0; j < n; ++j){
+            if (j >= stair){
+                printf("#");
+            } else{
+                printf(" ");
+            }
+        }
+        stair -= 1;
+        printf("\n");
